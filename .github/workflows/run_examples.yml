@@ -1,0 +1,27 @@
+name: Run examples
+
+on: [push]
+
+jobs:
+  test_run_examples:
+    runs-on: ubuntu-latest
+    name: A job to run examples
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+    - name: Clear result files ahead
+      run: rm -rf output/
+    - name: Run examples
+      uses: gitx-io/ActionServerless@master
+      with:
+        filepath: ./01_Day_Introduction ./02_Day_Variables_builtin_functions ./03_Day_Operators ./04_Day_Strings ./05_Day_Lists
+    - name: Git commit
+      run: |
+        # git commit if there's any change
+        if test -n "$(git status --porcelain 2>/dev/null)"; then
+            git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git config --local user.name "github-actions[bot]"
+            git add .
+            git commit -m "Add changes"
+            git push origin ${GITHUB_REF##*/}
+        fi

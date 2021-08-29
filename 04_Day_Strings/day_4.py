@@ -1,3 +1,4 @@
+# GET /output/04_Day_Strings/day_4
 
 # Single line comment
 letter = 'P'                # A string could be a single character or a bunch of texts

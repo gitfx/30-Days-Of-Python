@@ -1,3 +1,4 @@
+# GET /output/02_Day_Variables_builtin_functions/variables
 
 # Variables in Python
 
