@@ -1,0 +1,30 @@
+0
+Fruits: ['banana', 'orange', 'mango', 'lemon']
+Number of fruits: 4
+Vegetables: ['Tomato', 'Potato', 'Cabbage', 'Onion', 'Carrot']
+Number of vegetables: 5
+Animal products: ['milk', 'meat', 'butter', 'yoghurt']
+Number of animal products: 4
+Web technologies: ['HTML', 'CSS', 'JS', 'React', 'Redux', 'Node', 'MongDB']
+Number of web technologies: 7
+Number of countries: 5
+banana
+orange
+lemon
+lemon
+mango
+['Avocado', 'orange', 'mango', 'lemon']
+['Avocado', 'apple', 'mango', 'lemon']
+['Avocado', 'apple', 'mango', 'lime']
+True
+False
+['banana', 'orange', 'mango', 'lemon', 'apple']
+['banana', 'orange', 'mango', 'lemon', 'apple', 'lime']
+['banana', 'orange', 'apple', 'mango', 'lemon']
+['banana', 'orange', 'apple', 'lime', 'mango', 'lemon']
+['orange', 'mango', 'lemon']
+['orange', 'mango']
+['banana', 'orange', 'mango']
+['orange', 'mango']
+['orange', 'mango', 'lemon']
+['orange', 'lemon']

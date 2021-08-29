@@ -1,0 +1,67 @@
+Addition:  3
+Subtraction:  1
+Multiplication:  6
+Division:  2.0
+Division:  3.0
+Division:  3.5
+Division without the remainder:  3
+Modulus:  1
+Division without the remainder:  2
+Exponential:  9
+Floating Number,PI 3.14
+Floating Number, gravity 9.81
+Complex number:  (1+1j)
+Multiplying complex number:  (2+0j)
+5
+a + b =  5
+a - b =  1
+a * b =  6
+a / b =  1.5
+a % b =  1
+a // b =  1
+a ** b =  9
+total:  7
+difference:  1
+product:  12
+division:  1.0
+remainder:  1
+Area of a circle: 314.0
+Area of rectangle: 200
+735.75 N
+True
+True
+False
+True
+True
+False
+True
+False
+True
+True
+False
+True
+True
+False
+True == True:  True
+True == False:  False
+False == False: True
+True and True:  True
+True or False: True
+1 is 1 True
+1 is not 2 True
+A in Asabeneh True
+B in Asabeneh False
+True
+a in an: True
+4 is 2 ** 2: True
+True
+False
+False
+True
+True
+False
+False
+False
+True
+True
+False
