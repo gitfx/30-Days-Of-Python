@@ -2,6 +2,9 @@ name: Run examples
 
 on: [push]
 
+permissions:
+  contents: write
+
 jobs:
   test_run_examples:
     runs-on: ubuntu-latest
