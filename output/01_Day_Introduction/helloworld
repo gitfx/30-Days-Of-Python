@@ -1,5 +1,5 @@
 5
-2
+1
 6
 1.5
 9
@@ -13,3 +13,5 @@
 <class 'dict'>
 <class 'set'>
 <class 'tuple'>
+<class 'bool'>
+<class 'bool'>
