@@ -1,4 +1,6 @@
-# 🐍 30 Days Of Python 
+# 🐍 30 Days Of Python
+
+  <strong>Learn with Asabeneh by joining the upcoming [<em>CODING BOOTCAMP</em>](https://docs.google.com/forms/d/e/1FAIpQLSf0oNIYR9XU1DCctfl-pY36KbWse-SQX5aQaUgetqSinFYnmQ/viewform) </strong>
 
 |# Day | Topics                                                    |
 |------|:---------------------------------------------------------:|
@@ -15,11 +17,11 @@
 | 11  |  [Functions](./11_Day_Functions/11_functions.md)|
 | 12  |  [Modules](./12_Day_Modules/12_modules.md)|
 | 13  |  [List Comprehension](./13_Day_List_comprehension/13_list_comprehension.md)|
-| 14  |  [Higher Order Functions](./14_Day_Higher_order_functions/14_higher_order_functions.md)|     
-| 15  |  [Python Type Errors](./15_Day_Python_type_errors/15_python_type_errors.md)| 
-| 16 |  [Python Date time](./16_Day_Python_date_time/16_python_datetime.md) |     
-| 17 |  [Exception Handling](./17_Day_Exception_handling/17_exception_handling.md)|    
-| 18 |  [Regular Expressions](./18_Day_Regular_expressions/18_regular_expressions.md)|    
+| 14  |  [Higher Order Functions](./14_Day_Higher_order_functions/14_higher_order_functions.md)|
+| 15  |  [Python Type Errors](./15_Day_Python_type_errors/15_python_type_errors.md)|
+| 16 |  [Python Date time](./16_Day_Python_date_time/16_python_datetime.md) |
+| 17 |  [Exception Handling](./17_Day_Exception_handling/17_exception_handling.md)|
+| 18 |  [Regular Expressions](./18_Day_Regular_expressions/18_regular_expressions.md)|
 | 19 |  [File Handling](./19_Day_File_handling/19_file_handling.md)|
 | 20 |  [Python Package Manager](./20_Day_Python_package_manager/20_python_package_manager.md)|
 | 21 |  [Classes and Objects](./21_Day_Classes_and_objects/21_classes_and_objects.md)|
@@ -32,6 +34,8 @@
 | 28 |  [API](./28_Day_API/28_API.md)|
 | 29 |  [Building API](./29_Day_Building_API/29_building_API.md)|
 | 30 |  [Conclusions](./30_Day_Conclusions/30_conclusions.md)|
+
+  <strong>Learn with Asabeneh by joining the upcoming [<em>CODING BOOTCAMP</em>](https://docs.google.com/forms/d/e/1FAIpQLSf0oNIYR9XU1DCctfl-pY36KbWse-SQX5aQaUgetqSinFYnmQ/viewform) </strong>
 
 🧡🧡🧡 HAPPY CODING 🧡🧡🧡
 
@@ -55,6 +59,8 @@
   </sub>
 </div>
 
+🇧🇷 [Portuguese](./Portuguese/README.md)
+🇨🇳 [中文](./Chinese/README.md)
 
 [Day 2 >>](./02_Day_Variables_builtin_functions/02_variables_builtin_functions.md)
 
@@ -93,21 +99,24 @@
 
 ## Welcome
 
-**Congratulations** for deciding to participate in a _30 days of Python_ programming challenge . In this challenge you will learn everything you need to be a python programmer and the whole concept of programming. In the end of the challenge you will get a _30DaysOfPython_ programming challenge certificate.
+**Congratulations** for deciding to participate in a _30 days of Python_ programming challenge. In this challenge, you will learn everything you need to be a python programmer and the whole concept of programming. At the end of the challenge, you will get a _30DaysOfPython_ programming challenge certificate.
 
 If you would like to actively engage in the challenge, you may join the [30DaysOfPython challenge](https://t.me/ThirtyDaysOfPython) telegram group.  
 
 ## Introduction
 
-Python is a high-level programming language for general-purpose programming. It is an open source, interpreted, objected-oriented programming language. Python was created by a Dutch programmer, Guido van Rossum. The name of Python programming language was derived from a British sketch comedy series, *Month Python's Flying Circus*.  The first version was released on February 20, 1991. This 30 days of Python challenge will help you learn the latest version of Python, Python 3 step by step. The topics are broken down into 30 days, where each day contains several topics with easy-to-understand explanations, real-world examples, many hands on exercises and projects.
+Python is a high-level programming language for general-purpose programming. It is an open source, interpreted, objected-oriented programming language. Python was created by a Dutch programmer, Guido van Rossum. The name of the Python programming language was derived from a British sketch comedy series, *Monty Python's Flying Circus*.  The first version was released on February 20, 1991. This 30 days of Python challenge will help you learn the latest version of Python, Python 3 step by step. The topics are broken down into 30 days, where each day contains several topics with easy-to-understand explanations, real-world examples, and many hands on exercises and projects.
 
-This challenge is designed for beginners and professionals who want to learn python programming language. It may take 30 to 100 days to complete the challenge, people who actively participate on the telegram group have a high probability of completing the challenge.
-If you are a visual learner or in favor of videos, you may get started with this [Python for Absolute Beginners video](https://www.youtube.com/watch?v=11OYpBrhdyM).
+This challenge is designed for beginners and professionals who want to learn python programming language. It may take 30 to 100 days to complete the challenge. People who actively participate in the telegram group have a high probability of completing the challenge.
+
+This challenge is easy to read, written in conversational English, engaging, motivating and at the same time, it is very demanding. You need to allocate much time to finish this challenge. If you are a visual learner, you may get the video lesson on <a href="https://www.youtube.com/channel/UC7PNRuno1rzYPb1xLa4yktw"> Washera</a> YouTube channel. You may start from [Python for Absolute Beginners video](https://youtu.be/OCCWZheOesI). Subscribe the channel, comment and ask questions on YouTube vidoes and be proactive, the author will eventually notice you.
+
+The author likes to hear your opinion about the challenge, share the author by expressing your thoughts about the 30DaysOfPython challenge. You can leave your testimonial on this [link](https://www.asabeneh.com/testimonials)
 
 ## Why Python ?
 
-It is a programming language which is very close to human language and because of that it is easy to learn and use.
-Python is used by various industries and companies (including Google). It has been used to develop web applications, desktop applications, system adminstration, and machine learning libraries. Python is highly embraced language in the data science and machine learning community. I hope this is enough to convince you to start learning Python. Python is eating the world and you are killing it before it eats you.
+It is a programming language which is very close to human language and because of that, it is easy to learn and use.
+Python is used by various industries and companies (including Google). It has been used to develop web applications, desktop applications, system administration, and machine learning libraries. Python is a highly embraced language in the data science and machine learning community. I hope this is enough to convince you to start learning Python. Python is eating the world and you are killing it before it eats you.
 
 ## Environment Setup
 
@@ -163,11 +172,11 @@ Python will give you results if you write scripts that Python understands, if no
 
 As you can see from the returned error, Python is so clever that it knows the mistake we made and which was _Syntax Error: invalid syntax_. Using x as multiplication in Python is a syntax error because (x) is not a valid syntax in Python. Instead of (**x**) we use asterisk (*) for multiplication. The returned error clearly shows what to fix.
 
-The process of identifying and removing errors from a program is called *debugging*. Let us debug it by putting * in place of **x**.
+The process of identifying and removing errors from a program is called _debugging_. Let us debug it by putting * in place of **x**.
 
 ![Fixing Syntax Error](./images/fixing_syntax_error.png)
 
-Our bug was fixed, the code ran and we got a result we were expecting. As a programmer you will see such kind of errors on daily basis. It is good to know how to debug. To be good at debugging you should understand what kind of errors you are facing. Some of the Python errors you may encounter are *SyntaxError*, *IndexError*, *NameError*, *ModuleNotFoundError*, *KeyError*, *ImportError*, *AttributeError*, *TypeError*, *ValueError*, *ZeroDivisionError* etc. We will see more about different Python **_error types_** in later sections.
+Our bug was fixed, the code ran and we got a result we were expecting. As a programmer you will see such kind of errors on daily basis. It is good to know how to debug. To be good at debugging you should understand what kind of errors you are facing. Some of the Python errors you may encounter are _SyntaxError_, _IndexError_, _NameError_, _ModuleNotFoundError_, _KeyError_, _ImportError_, _AttributeError_, _TypeError_, _ValueError_, _ZeroDivisionError_ etc. We will see more about different Python **_error types_** in later sections.
 
 Let us practice more how to use Python interactive shell. Go to your terminal or command prompt and write the word **python**.
 
@@ -177,11 +186,11 @@ The Python interactive shell is opened. Let us do some basic mathematical operat
 
 Let us do some maths first before we write any Python code:
 
-- 2 + 3 = 5
-- 3 - 2 = 1
-- 3 \* 2 = 6
-- 3 / 2 = 1.5
-- 3 ^ 2 = 3 x 3 = 9
+- 2 + 3 is 5
+- 3 - 2 is 1
+- 3 \* 2 is 6
+- 3 / 2 is 1.5
+- 3 ** 2 is the same as 3 * 3
 
 In python we have the following additional operations:
 
@@ -243,14 +252,13 @@ A Python script can be written in Python interactive shell or in the code editor
 
 ### Python Indentation
 
-An indentation is a white space in a text. Indentation in many languages is used to increase code readability, however Python uses indentation to create block of codes. In other programming languages curly brackets are used to create blocks of codes instead of indentation. One of the common bugs when writing python code is wrong indentation.
+An indentation is a white space in a text. Indentation in many languages is used to increase code readability; however, Python uses indentation to create blocks of code. In other programming languages, curly brackets are used to create code blocks instead of indentation. One of the common bugs when writing Python code is incorrect indentation.
 
 ![Indentation Error](./images/indentation.png)
 
 ### Comments
 
-Comments are very important to make the code more readable and to leave remarks in our code. Python does not run comment parts of our code.
-Any text starting with hash(#) in Python is a comment.
+Comments play a crucial role in enhancing code readability and allowing developers to leave notes within their code. In Python, any text preceded by a hash (#) symbol is considered a comment and is not executed when the code runs.
 
 **Example: Single Line Comment**
 
@@ -327,7 +335,7 @@ Python list is an ordered collection which allows to store different data type i
 
 #### Dictionary
 
-A Python dictionary object is an unordered collection of data in a key value pair format. 
+A Python dictionary object is an unordered collection of data in a key value pair format.
 
 **Example:**
 
@@ -379,7 +387,7 @@ To check the data type of certain data/variable we use the **type** function. In
 
 First open your project folder, 30DaysOfPython. If you don't have this folder, create a folder name called 30DaysOfPython. Inside this folder, create a file called helloworld.py. Now, let's do what we did on python interactive shell using visual studio code.
 
-The Python interactive shell was printing without using **print** but on visual studio code to see our result we should use a built in function *print(). The *print()* built-in function takes one or more arguments as follows *print('arument1', 'argument2', 'argument3')*. See the examples below.
+The Python interactive shell was printing without using **print** but on visual studio code to see our result we should use a built in function _print(). The _print()_ built-in function takes one or more arguments as follows _print('arument1', 'argument2', 'argument3')_. See the examples below.
 
 **Example:**
 
@@ -407,7 +415,7 @@ print(type({9.8, 3.14, 2.7}))    # Set
 print(type((9.8, 3.14, 2.7)))    # Tuple
 ```
 
-To run the python file check the image below. You can run the python file either by running the green button on Visual Studio Code or by typing *python helloworld.py* in the terminal .
+To run the python file check the image below. You can run the python file either by running the green button on Visual Studio Code or by typing _python helloworld.py_ in the terminal .
 
 ![Running python script](./images/running_python_script.png)
 

@@ -16,7 +16,7 @@
 
 [<< Day 7 ](../07_Day_Sets/07_sets.md) | [Day 9 >>](../09_Day_Conditionals/09_conditionals.md)
 
-![30DaysOfPython](../images/30DaysOfPython_banner3@2x.png)
+![30DaysOfPython](../../images/30DaysOfPython_banner3@2x.png)
 
 - [📘 Day 8](#-day-8)
   - [Dictionaries](#dictionaries)
@@ -39,11 +39,11 @@
 
 ## Dictionaries
 
-A dictionary is a collection of unordered, modifiable(mutable) paired (key: value) data type.
+Dictionary는 순서가 없는 수정(변형) 가능한 쌍(키: 값)의 자료형의 컬렉션입니다.
 
 ### Creating a Dictionary
 
-To create a dictionary we use curly brackets, {} or the *dict()* built-in function.
+Dictionary를 만들려면 중괄호 {} 또는 *dict()* 내장 함수를 사용합니다.
 
 ```py
 # syntax
@@ -69,11 +69,11 @@ person = {
     }
 ```
 
-The dictionary above shows that a value could be any data types:string, boolean, list, tuple, set or a dictionary.
+상단의 Dictionary는 값이 어떤 자료형일 수도 있다는 것을 보여줍니다:string, boolean, list, tuple, set 또는 dictionary.
 
 ### Dictionary Length
 
-It checks the number of 'key: value' pairs in the dictionary.
+dictionary 내 'key: value' 쌍의 개수를 확인합니다.
 
 ```py
 # syntax
@@ -89,7 +89,7 @@ person = {
     'last_name':'Yetayeh',
     'age':250,
     'country':'Finland',
-    'is_married':True,
+    'is_marred':True,
     'skills':['JavaScript', 'React', 'Node', 'MongoDB', 'Python'],
     'address':{
         'street':'Space street',
@@ -102,7 +102,7 @@ print(len(person)) # 7
 
 ### Accessing Dictionary Items
 
-We can access Dictionary items by referring to its key name.
+키의 이름을 통해 딕셔너리 아이템에 접근할 수 있습니다.
 
 ```py
 # syntax
@@ -134,7 +134,7 @@ print(person['address']['street']) # Space street
 print(person['city'])       # Error
 ```
 
-Accessing an item by key name raises an error if the key does not exist. To avoid this error first we have to check if a key exist or we can use the _get_ method. The get method returns None, which is a NoneType object data type, if the key does not exist.
+존재하지 않는 키의 이름으로 아이템에 접근할 경우 에러가 발생할 수 있습니다. 이 에러를 피하기위해 우리는 우선 키가 존재하는지 확인해야합니다. 또는 _get_ 메서드를 사용할수 있습니다. get 메서드는 키가 존재하지 않을 경우, NoneType object 자료형인 None을 반환합니다.
 ```py
 person = {
     'first_name':'Asabeneh',
@@ -156,7 +156,7 @@ print(person.get('city'))   # None
 
 ### Adding Items to a Dictionary
 
-We can add new key and value pairs to a dictionary
+딕셔너리에 새로운 키와 값의 쌍을 추가할 수 있습니다.
 
 ```py
 # syntax
@@ -186,7 +186,7 @@ print(person)
 
 ### Modifying Items in a Dictionary
 
-We can modify items in a dictionary
+딕셔너리의 아이템을 수정할 수 있습니다
 
 ```py
 # syntax
@@ -215,7 +215,7 @@ person['age'] = 252
 
 ### Checking Keys in a Dictionary
 
-We use the _in_ operator to check if a key exist in a dictionary
+딕셔너리에 키가 존재하는 지 확인하기 위해  _in_ 연산자를 사용합니다
 
 ```py
 # syntax
@@ -226,9 +226,9 @@ print('key5' in dct) # False
 
 ### Removing Key and Value Pairs from a Dictionary
 
-- _pop(key)_: removes the item with the specified key name:
-- _popitem()_: removes the last item
-- _del_: removes an item with specified key name
+- _pop(key)_: 특정 키 이름을 가진 아이템을 삭제합니다
+- _popitem()_: 마지막 아이템을 삭제합니다
+- _del_: 특정 키 이름을 가진 아이템을 삭제합니다
 
 ```py
 # syntax
@@ -261,7 +261,7 @@ del person['is_married']        # Removes the is_married item
 
 ### Changing Dictionary to a List of Items
 
-The _items()_ method changes dictionary to a list of tuples.
+_items()_ 메서드는 딕셔너리를 튜플의 리스트로 변환합니다.
 
 ```py
 # syntax
@@ -271,7 +271,7 @@ print(dct.items()) # dict_items([('key1', 'value1'), ('key2', 'value2'), ('key3'
 
 ### Clearing a Dictionary
 
-If we don't want the items in a dictionary we can clear them using _clear()_ method
+딕셔너리 내의 아이템을 원하지 않는다면  _clear()_ 메서드를 사용해 비울 수 있습니다
 
 ```py
 # syntax
@@ -281,7 +281,7 @@ print(dct.clear()) # None
 
 ### Deleting a Dictionary
 
-If we do not use the dictionary we can delete it completely
+딕셔너리를 사용하지않는다면 완전히 지울 수 있습니다
 
 ```py
 # syntax
@@ -291,7 +291,7 @@ del dct
 
 ### Copy a Dictionary
 
-We can copy a dictionary using a _copy()_ method. Using copy we can avoid mutation of the original dictionary.
+_copy()_ 메서드를 통해 딕셔너리를 복사할 수 있습니다. copy를 사용해 원래 딕셔너리의 변화를 막을 수 있습니다.
 
 ```py
 # syntax
@@ -301,7 +301,7 @@ dct_copy = dct.copy() # {'key1':'value1', 'key2':'value2', 'key3':'value3', 'key
 
 ### Getting Dictionary Keys as a List
 
-The _keys()_ method gives us all the keys of a a dictionary as a list.
+_keys()_ 메서드는 하나의 딕셔너리의 모든 키를 리스트로 줍니다.
 
 ```py
 # syntax
@@ -312,7 +312,7 @@ print(keys)     # dict_keys(['key1', 'key2', 'key3', 'key4'])
 
 ### Getting Dictionary Values as a List
 
-The _values_ method gives us all the values of a a dictionary as a list.
+_values_ 메서드는 하나의 딕셔너리의 모든 값을 리스트로 줍니다.
 
 ```py
 # syntax
@@ -321,21 +321,21 @@ values = dct.values()
 print(values)     # dict_values(['value1', 'value2', 'value3', 'value4'])
 ```
 
-🌕 You are astonishing. Now, you are super charged with the power of dictionaries. You have just completed day 8 challenges and you are 8 steps a head in to your way to greatness. Now do some exercises for your brain and  muscles.
+🌕 당신은 정말 놀라워요. 이제, 여러분은 사전의 힘으로 완전히 충전되어 있습니다. 여러분은 이제 막 8일째의 도전을 마쳤고 위대함을 향해 8보 전진했습니다. 이제 여러분의 뇌와 근육을 위한 운동을 하세요.
 
 ## 💻 Exercises: Day 8
 
-1. Create  an empty dictionary called dog
-2. Add name, color, breed, legs, age to the dog dictionary
-3. Create a student dictionary and add first_name, last_name, gender, age, marital status, skills, country, city and address as keys for the dictionary
-4. Get the length of the student dictionary
-5. Get the value of skills and check the data type, it should be a list
-6. Modify the skills values by adding one or two skills
-7. Get the dictionary keys as a list
-8. Get the dictionary values as a list
-9. Change the dictionary to a list of tuples using _items()_ method
-10. Delete one of the items in the dictionary
-11. Delete one of the dictionaries
+1. dog라는 이름의 빈 딕셔너리를 생성합니다
+2. dog 딕셔너리에 name, color, breed, legs, age 를 추가합니다
+3. student 딕셔너리를 생성하고 first_name, last_name, gender, age, marital status, skills, country, city 와 address 를 키로 추가합니다
+4. student 딕셔너리의 길이를 얻습니다
+5. skills 의 값을 얻고 자료형을 확인합니다, list 여야 합니다
+6. 한개나 두개를 추가해 skills의 값을 수정합니다
+7. 딕셔너리의 키를 리스트로 얻습니다
+8. 딕셔너리의 값을 리스트로 얻습니다
+9. _items()_ 메서드를 이용해 튜플의 리스트로 딕셔너리를 바꿉니다
+10. 딕셔너리의 아이템중 하나를 삭제합니다
+11. 딕셔너리 중 하나를 삭제합니다
 
 🎉 CONGRATULATIONS ! 🎉
 
